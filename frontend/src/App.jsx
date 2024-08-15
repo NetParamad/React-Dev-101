@@ -36,7 +36,7 @@ function App() {
 
   const [users, setUsers] = useState([]);
   const  [isLoading, setIsLoading] = useState(true);
-  const BASE_URL = "https://65d444943f1ab8c63434c1d3.mockapi.io/api/todo";
+  const BASE_URL = "https://66bc5ef724da2de7ff6a3c79.mockapi.io";
 
   async function fetchUser() {
     try {
